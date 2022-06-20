@@ -1,0 +1,137 @@
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    height: 100vh;
+    background: linear-gradient(
+        to right,
+        #7f53ac,
+        #657ced
+      
+    );
+}
+/*
+
+*/
+.container{
+    position: absolute;
+    width: 40%;
+    min-width: 580px;
+    
+    transform: translate(-50%, -50%);
+    top: 55%;
+    left: 50%;
+    background-color: #ffffff;
+    padding: 50px 10px;
+    border-radius: 5px;
+    display: grid;
+    justify-items: center;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0 20px 65px rgba(87, 11, 16, 0.5);
+    
+}
+
+.container_media{
+    display: flex;
+    width:925px;
+    height:500px auto;
+    border: 4px solid #7f53ac;
+    max-width: 100%;
+    max-height: 100%;
+    width:  925px;
+    height: 500px;
+    
+
+}
+
+.container_content{
+    display: grid;
+    text-align: center;
+    border: 4px solid #7f53ac;
+    padding: 3em;
+    width: 925px;
+    height: 225px;
+}
+
+.firstTitle{
+    display: inline-block;
+    text-align: center;
+    color: white;
+    font-size: 250%;
+    font-family: 'Poppins', sans-serif;
+    transform: translate(0, -35%);
+}  
+
+.secondTitle{
+    text-align: center;
+    color: white;
+    font-size: 150%;
+    font-family: 'Poppins', sans-serif;
+    transform: translate(0, -45%);
+    
+}
+
+.mainHeader{
+    display: grid;
+    vertical-align: middle;
+    align-items: center;
+    height: 200px;
+}
+
+button{
+    width: 160px;
+    padding: 15px 0;
+    border-radius: 5px;
+    background:  #7f53ac;
+    color: #ffffff;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    outline: none;
+    box-shadow: 0 10px 15px rgba(8, 11, 16, 0.5);
+    cursor: pointer;
+    transition: 0.2s all;
+}
+
+.responsive {
+    height: auto;
+    max-width: 100%;
+}
+
+.locationTitle{
+    font-size: 150%;
+    display: grid;
+    justify-content: center;
+    transform: translate(0, -70%);
+    color:  #21B6A8;
+    text-shadow: 0 2px 3px rgba(8, 11, 16, 0.5);
+}
+    
+button:active {
+    transform: scale(0.98);
+    box-shadow: 3px 2px 22px 1px rgba(0,0,0,0.24);
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+a {
+    color: green;
+    cursor: pointer;
+    font-size: large;
+}
+
+#bulb {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+}
