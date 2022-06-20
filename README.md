@@ -6,3 +6,5 @@ The ability to see the location on Google maps was recently added.
 
 In the future I would like to add more functionality such as the ability to view more photos of each location, a filter system (ie. by distance from current location), parking info, and a light/dark mode.
 
+Current issue:
+    -the web app has to be viewed in full-window mode and is not responsive
